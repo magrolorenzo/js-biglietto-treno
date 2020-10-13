@@ -3,5 +3,47 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+}
+
+header{
+    display: flex;
+    background-color: orange;
+    text-align: center;
+    border-bottom: 1px solid black;
+    height: 80px;
+}
+
+header h1{
+    margin: auto;
+}
+
+main{
+    display: flex;
+    height: calc( 100vh - 80px);
+    background-color: #121212;
     color: white;
+    font-size: 40px;
+}
+
+.info-ticket{
+    width: 500px;
+    margin: auto;
+}
+
+.info-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-wrapper.discount-div{
+    justify-content: flex-end;
+    color: green;
+}
+
+.label{
+    font-weight: bold;
+}
+
+.values{
+    font-style: italic;
 }
