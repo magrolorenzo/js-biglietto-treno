@@ -17,14 +17,14 @@ if (isNaN(km) == true) {
     } else if (km == 0){
             // Se inserisce 0 Km, da errore
             alert('0 Km inseriti - Ricaricare la Pagina');
-    } else {
-        var età = parseInt(prompt('Quanti anni hai?'));
-        if (isNaN(età) == true){
+        } else {
+            var età = parseInt(prompt('Quanti anni hai?'));
+            if (isNaN(età) == true){
             // Se l'età inserita non è un numero, da errore
             alert('Età inserita non Valida - Ricaricare la Pagina');
         } else if (età == 0 ){
-                // Se l'età inserita è uguale a 0, da errore
-                alert('Età inserita pari a 0 - Ricaricare la Pagina');
+            // Se l'età inserita è uguale a 0, da errore
+            alert('Età inserita pari a 0 - Ricaricare la Pagina');
         } else {
 
             var tariffa = km * 0.21;
